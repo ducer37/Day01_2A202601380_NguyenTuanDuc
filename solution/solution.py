@@ -548,6 +548,7 @@ if __name__ == "__main__":
     for key, value in result.items():
         print(f"{key}: {value}")
 
+
     print("\n=== Trợ lý CLI (gõ 'quit' để thoát) ===")
     stats = run_assistant(
         persona="Bạn là trợ giảng thân thiện của khóa AI, "
